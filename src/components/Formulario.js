@@ -29,7 +29,7 @@ const Formulario = ({guardarBusqueda}) => {
                     <input
                         type="text"
                         className="form-control form-control-lg"
-                        placeholder="Busca una imagen, ejemplo: futbol o café"
+                        placeholder="Search an image, example: soccer or coffee"
                         onChange={ e => guardarTermino(e.target.value)}
                     />
                 </div>
@@ -42,7 +42,7 @@ const Formulario = ({guardarBusqueda}) => {
                 </div>
             </div>
 
-            { error ? <Error mensaje="Agrega un término de búsqueda" /> : null }
+            { error ? <Error mensaje="Add a search value" /> : null }
         </form>
      );
 }

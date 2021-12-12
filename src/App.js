@@ -55,7 +55,7 @@ function App() {
   return (
     <div className="container">
       <div className="jumbotron">
-          <p className="lead text-center">Buscador de Imágenes</p>
+          <p className="lead text-center">Images Searcher</p>
 
           <Formulario 
             guardarBusqueda={guardarBusqueda}
@@ -72,7 +72,7 @@ function App() {
                 type="button"
                 className="bbtn btn-info mr-1"
                 onClick={paginaAnterior}
-            >&laquo; Anterior </button>
+            >&laquo; Back </button>
           ) }
 
           { (paginaactual === totalpaginas) ? null : (
@@ -80,7 +80,7 @@ function App() {
               type="button"
               className="bbtn btn-info"
               onClick={paginaSiguiente}
-            >Siguiente &raquo;</button>
+            >Next &raquo;</button>
           ) }
       </div>
     </div>

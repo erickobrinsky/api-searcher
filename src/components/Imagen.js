@@ -11,8 +11,8 @@ const Imagen = ({imagen}) => {
                 <img src={previewURL} alt={tags} className="card-img-top" />
 
                 <div className="card-body">
-                    <p className="card-text">{likes} Me Gusta</p>
-                    <p className="card-text">{views} Vistas</p>
+                    <p className="card-text">{likes} Likes</p>
+                    <p className="card-text">{views} Views</p>
                 </div>
 
                 <div className="card-footer">
@@ -21,7 +21,7 @@ const Imagen = ({imagen}) => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-primary btn-block"
-                    >Ver Imagen</a>
+                    >See Image</a>
                 </div>
             </div>
         </div>
